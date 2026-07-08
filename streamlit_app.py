@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from data import load_all_data, 1maI0JLyNGYxGvKugEsd97VLzcdf5txbCQoW23gcFBQ0
+from data import load_all_data,1maI0JLyNGYxGvKugEsd97VLzcdf5txbCQoW23gcFBQ0
 
 st.set_page_config(
     page_title="Clearance Removal Dashboard",
