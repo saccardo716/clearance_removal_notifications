@@ -1,12 +1,10 @@
-[project]
-name = "blank-app-template"
-version = "0.1.0"
-description = "A simple Streamlit app template."
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = [
-    "streamlit>=1.59.0",
-]
+[theme]
+base = "dark"
+primaryColor = "#1DB954"
+backgroundColor = "#121212"
+secondaryBackgroundColor = "#1E1E1E"
+textColor = "#FFFFFF"
+font = "sans serif"
 
-[tool.uv]
-package = false
+[server]
+headless = true
